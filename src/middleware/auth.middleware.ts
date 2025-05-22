@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, User } from '@prisma/client';
 import logger from '../utils/logger';
 
 const prisma = new PrismaClient();
@@ -8,7 +8,7 @@ const prisma = new PrismaClient();
 declare global {
   namespace Express {
     interface Request {
-      user?: any;
+      user?: User;
     }
   }
 }

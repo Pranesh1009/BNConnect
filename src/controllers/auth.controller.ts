@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, User, Role } from '@prisma/client';
 import jwt from 'jsonwebtoken';
 import { encrypt, compare } from '../utils/encryption';
 import logger from '../utils/logger';
@@ -7,7 +7,11 @@ import { handlePrismaError } from '../utils/prisma-error';
 
 const prisma = new PrismaClient();
 
-export const register = async (req: Request, res: Response) => {
+interface AuthenticatedRequest extends Request {
+  user?: User;
+}
+
+export const register = async (req: AuthenticatedRequest, res: Response) => {
   try {
     const { email, password, name, roleNames } = req.body;
 
@@ -37,7 +41,7 @@ export const register = async (req: Request, res: Response) => {
     }
 
     // Get default role if not specified
-    let roles = [];
+    let roles: Role[] = [];
     if (roleNames) {
       roles = await prisma.role.findMany({
         where: { name: { in: roleNames } }
@@ -51,33 +55,37 @@ export const register = async (req: Request, res: Response) => {
       }
     }
 
+    // Hash password
+    const hashedPassword = await encrypt(password);
+
     // Create user
     const user = await prisma.user.create({
       data: {
         email,
-        password: await encrypt(password),
+        password: hashedPassword,
         name,
         roles: {
           connect: roles.map(role => ({ id: role.id }))
         }
       },
-      select: {
-        id: true,
-        email: true,
-        name: true,
-        roles: {
-          select: {
-            id: true,
-            name: true,
-            description: true
-          }
-        },
-        createdAt: true
+      include: {
+        roles: true
       }
     });
 
     logger.info('User registered successfully', { userId: user.id });
-    res.status(201).json(user);
+    res.status(201).json({
+      user: {
+        id: user.id,
+        email: user.email,
+        name: user.name,
+        roles: user.roles.map(role => ({
+          id: role.id,
+          name: role.name,
+          description: role.description
+        }))
+      }
+    });
   } catch (error) {
     const prismaError = handlePrismaError(error);
     res.status(prismaError.statusCode).json({ message: prismaError.message });
@@ -151,7 +159,7 @@ export const login = async (req: Request, res: Response) => {
   }
 };
 
-export const logout = async (req: Request, res: Response) => {
+export const logout = async (req: AuthenticatedRequest, res: Response) => {
   try {
     const token = req.headers.authorization?.split(' ')[1];
     if (!token) {
@@ -164,7 +172,7 @@ export const logout = async (req: Request, res: Response) => {
       data: { isActive: false }
     });
 
-    logger.info('User logged out successfully', { userId: req.user.id });
+    logger.info('User logged out successfully', { userId: req.user?.id ?? 'unknown' });
     res.json({ message: 'Logged out successfully' });
   } catch (error) {
     const prismaError = handlePrismaError(error);

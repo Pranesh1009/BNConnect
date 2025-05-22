@@ -1,17 +1,16 @@
 import { Request, Response, NextFunction } from 'express';
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, User } from '@prisma/client';
 import logger from '../utils/logger';
 
 const prisma = new PrismaClient();
 
-export const requireRole = (roleNames: string[]) => {
-  return async (req: Request, res: Response, next: NextFunction) => {
-    try {
-      if (!req.user) {
-        logger.warn('Authentication required for role check');
-        return res.status(401).json({ message: 'Authentication required' });
-      }
+interface AuthenticatedRequest extends Request {
+  user: User;
+}
 
+export const requireRole = (roleNames: string[]) => {
+  return async (req: AuthenticatedRequest, res: Response, next: NextFunction) => {
+    try {
       const user = await prisma.user.findUnique({
         where: { id: req.user.id },
         include: { roles: true }

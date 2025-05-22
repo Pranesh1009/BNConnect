@@ -4,7 +4,6 @@ import helmet from 'helmet';
 import dotenv from 'dotenv';
 import authRoutes from './routes/auth.routes';
 import userRoutes from './routes/user.routes';
-import itemRoutes from './routes/item.routes';
 import logger from './utils/logger';
 
 dotenv.config();
@@ -29,10 +28,9 @@ app.use((req, res, next) => {
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
-app.use('/api/items', itemRoutes);
 
 // Error handling
-app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
+app.use((err: Error, req: express.Request, res: express.Response, next: express.NextFunction) => {
   logger.error('Unhandled error', { error: err.stack });
   res.status(500).json({ message: 'Something went wrong!' });
 });
