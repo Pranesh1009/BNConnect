@@ -4,13 +4,22 @@ import logger from '../utils/logger';
 
 const prisma = new PrismaClient();
 
-interface AuthenticatedRequest extends Request {
-  user: User;
+declare global {
+  namespace Express {
+    interface Request {
+      user?: User;
+    }
+  }
 }
 
 export const requireRole = (roleNames: string[]) => {
-  return async (req: AuthenticatedRequest, res: Response, next: NextFunction) => {
+  return async (req: Request, res: Response, next: NextFunction) => {
     try {
+      if (!req.user) {
+        logger.warn('Authentication required for role check');
+        return res.status(401).json({ message: 'Authentication required' });
+      }
+
       const user = await prisma.user.findUnique({
         where: { id: req.user.id },
         include: { roles: true }

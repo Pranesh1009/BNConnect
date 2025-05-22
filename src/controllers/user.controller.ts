@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 import { PrismaClient } from '@prisma/client';
-import { encrypt } from '../utils/encryption';
 import logger from '../utils/logger';
 import { handlePrismaError } from '../utils/prisma-error';
 
@@ -10,23 +9,21 @@ const prisma = new PrismaClient();
 export const getAllUsers = async (req: Request, res: Response) => {
   try {
     const users = await prisma.user.findMany({
-      select: {
-        id: true,
-        email: true,
-        name: true,
-        roles: {
-          select: {
-            id: true,
-            name: true,
-            description: true
-          }
-        },
-        createdAt: true,
-        updatedAt: true
+      include: {
+        roles: true
       }
     });
-    logger.info('Retrieved all users', { count: users.length });
-    res.json(users);
+
+    res.json(users.map(user => ({
+      id: user.id,
+      email: user.email,
+      name: user.name,
+      roles: user.roles.map(role => ({
+        id: role.id,
+        name: role.name,
+        description: role.description
+      }))
+    })));
   } catch (error) {
     const prismaError = handlePrismaError(error);
     res.status(prismaError.statusCode).json({ message: prismaError.message });
@@ -39,19 +36,8 @@ export const getUserById = async (req: Request, res: Response) => {
     const { id } = req.params;
     const user = await prisma.user.findUnique({
       where: { id },
-      select: {
-        id: true,
-        email: true,
-        name: true,
-        roles: {
-          select: {
-            id: true,
-            name: true,
-            description: true
-          }
-        },
-        createdAt: true,
-        updatedAt: true
+      include: {
+        roles: true
       }
     });
 
@@ -60,23 +46,16 @@ export const getUserById = async (req: Request, res: Response) => {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    // Check if the requesting user has permission to view this user
-    const requestingUser = await prisma.user.findUnique({
-      where: { id: req.user.id },
-      include: { roles: true }
+    res.json({
+      id: user.id,
+      email: user.email,
+      name: user.name,
+      roles: user.roles.map(role => ({
+        id: role.id,
+        name: role.name,
+        description: role.description
+      }))
     });
-
-    const isSuperAdmin = requestingUser?.roles.some(role => role.name === 'SUPER_ADMIN');
-    if (!isSuperAdmin && req.user.id !== id) {
-      logger.warn('Unauthorized user access attempt', {
-        requestingUserId: req.user.id,
-        targetUserId: id
-      });
-      return res.status(403).json({ message: 'Unauthorized access' });
-    }
-
-    logger.info('Retrieved user', { userId: id });
-    res.json(user);
   } catch (error) {
     const prismaError = handlePrismaError(error);
     res.status(prismaError.statusCode).json({ message: prismaError.message });
@@ -88,6 +67,10 @@ export const updateUser = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
     const { name, email, roleIds } = req.body;
+
+    if (!req.user) {
+      return res.status(401).json({ message: 'Authentication required' });
+    }
 
     // Check if user exists
     const existingUser = await prisma.user.findUnique({
@@ -106,7 +89,11 @@ export const updateUser = async (req: Request, res: Response) => {
       include: { roles: true }
     });
 
-    const isSuperAdmin = requestingUser?.roles.some(role => role.name === 'SUPER_ADMIN');
+    if (!requestingUser) {
+      return res.status(401).json({ message: 'Requesting user not found' });
+    }
+
+    const isSuperAdmin = requestingUser.roles.some(role => role.name === 'SUPER_ADMIN');
 
     // Check permissions
     if (!isSuperAdmin && req.user.id !== id) {
@@ -137,33 +124,32 @@ export const updateUser = async (req: Request, res: Response) => {
       }
     }
 
+    // Update user
     const updatedUser = await prisma.user.update({
       where: { id },
       data: {
-        name: name || undefined,
-        email: email || undefined,
+        name,
+        email,
         roles: roleIds ? {
           set: roleIds.map((roleId: string) => ({ id: roleId }))
         } : undefined
       },
-      select: {
-        id: true,
-        email: true,
-        name: true,
-        roles: {
-          select: {
-            id: true,
-            name: true,
-            description: true
-          }
-        },
-        createdAt: true,
-        updatedAt: true
+      include: {
+        roles: true
       }
     });
 
-    logger.info('User updated', { userId: id });
-    res.json(updatedUser);
+    logger.info('User updated successfully', { userId: id });
+    res.json({
+      id: updatedUser.id,
+      email: updatedUser.email,
+      name: updatedUser.name,
+      roles: updatedUser.roles.map(role => ({
+        id: role.id,
+        name: role.name,
+        description: role.description
+      }))
+    });
   } catch (error) {
     const prismaError = handlePrismaError(error);
     res.status(prismaError.statusCode).json({ message: prismaError.message });
@@ -174,6 +160,10 @@ export const updateUser = async (req: Request, res: Response) => {
 export const deleteUser = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
+
+    if (!req.user) {
+      return res.status(401).json({ message: 'Authentication required' });
+    }
 
     // Check if user exists
     const existingUser = await prisma.user.findUnique({
@@ -192,7 +182,11 @@ export const deleteUser = async (req: Request, res: Response) => {
       include: { roles: true }
     });
 
-    const isSuperAdmin = requestingUser?.roles.some(role => role.name === 'SUPER_ADMIN');
+    if (!requestingUser) {
+      return res.status(401).json({ message: 'Requesting user not found' });
+    }
+
+    const isSuperAdmin = requestingUser.roles.some(role => role.name === 'SUPER_ADMIN');
 
     // Only SUPER_ADMIN can delete users
     if (!isSuperAdmin) {
