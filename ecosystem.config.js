@@ -2,8 +2,8 @@ module.exports = {
   apps: [
     {
       name: 'project1-app',
-      script: 'npm',
-      args: 'start',
+      script: './node_modules/.bin/ts-node',
+      args: 'src/index.ts',
       instances: 'max',
       exec_mode: 'cluster',
       watch: false,
