@@ -2,11 +2,24 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
+import { PrismaClient } from '@prisma/client';
 import authRoutes from './routes/auth.routes';
 import userRoutes from './routes/user.routes';
 import logger from './utils/logger';
 
 dotenv.config();
+
+const prisma = new PrismaClient();
+
+// Test database connection
+prisma.$connect()
+  .then(() => {
+    logger.info('Database connection established successfully');
+  })
+  .catch((error) => {
+    logger.error('Failed to connect to database', { error });
+    process.exit(1);
+  });
 
 const app = express();
 
@@ -39,4 +52,11 @@ const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
   logger.info(`Server is running on port ${PORT}`);
+});
+
+// Handle graceful shutdown
+process.on('SIGTERM', async () => {
+  logger.info('SIGTERM received. Closing database connection...');
+  await prisma.$disconnect();
+  process.exit(0);
 }); 
