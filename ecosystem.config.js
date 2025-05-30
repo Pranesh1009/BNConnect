@@ -2,8 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'project1-app',
-      script: './node_modules/.bin/ts-node',
-      args: 'src/index.ts',
+      script: 'dist/index.js', // Changed to run compiled JS directly
       instances: 'max',
       exec_mode: 'cluster',
       watch: false,
