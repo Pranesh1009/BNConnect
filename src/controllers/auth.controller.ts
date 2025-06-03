@@ -4,6 +4,7 @@ import jwt from 'jsonwebtoken';
 import { encrypt, compare } from '../utils/encryption';
 import logger from '../utils/logger';
 import { handlePrismaError } from '../utils/prisma-error';
+import { sendSuccess, sendError } from '../utils/response.util';
 
 const prisma = new PrismaClient();
 
@@ -22,7 +23,7 @@ export const register = async (req: AuthenticatedRequest, res: Response) => {
 
     if (existingUser) {
       logger.warn('Registration attempt with existing email', { email });
-      return res.status(400).json({ message: 'Email already registered' });
+      return sendError(res, 'Email already registered', 400);
     }
 
     // Get requesting user's role if authenticated
@@ -37,7 +38,7 @@ export const register = async (req: AuthenticatedRequest, res: Response) => {
     // Only SUPER_ADMIN can create SUPER_ADMIN users
     if (roleNames?.includes('SUPER_ADMIN') && (!requestingUser || !requestingUser.roles.some(role => role.name === 'SUPER_ADMIN'))) {
       logger.warn('Unauthorized SUPER_ADMIN creation attempt', { email });
-      return res.status(403).json({ message: 'Only super admin can create super admin users' });
+      return sendError(res, 'Only super admin can create super admin users', 403);
     }
 
     // Get default role if not specified
@@ -74,21 +75,19 @@ export const register = async (req: AuthenticatedRequest, res: Response) => {
     });
 
     logger.info('User registered successfully', { userId: user.id });
-    res.status(201).json({
-      user: {
-        id: user.id,
-        email: user.email,
-        name: user.name,
-        roles: user.roles.map(role => ({
-          id: role.id,
-          name: role.name,
-          description: role.description
-        }))
-      }
-    });
+    return sendSuccess(res, {
+      id: user.id,
+      email: user.email,
+      name: user.name,
+      roles: user.roles.map(role => ({
+        id: role.id,
+        name: role.name,
+        description: role.description
+      }))
+    }, 'User registered successfully', 201);
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 };
 
@@ -104,14 +103,14 @@ export const login = async (req: Request, res: Response) => {
 
     if (!user) {
       logger.warn('Login attempt with non-existent email', { email });
-      return res.status(401).json({ message: 'Invalid credentials' });
+      return sendError(res, 'Invalid credentials', 401);
     }
 
     // Verify password
     const isValidPassword = await compare(password, user.password);
     if (!isValidPassword) {
       logger.warn('Login attempt with invalid password', { email });
-      return res.status(401).json({ message: 'Invalid credentials' });
+      return sendError(res, 'Invalid credentials', 401);
     }
 
     // Generate JWT token
@@ -140,7 +139,7 @@ export const login = async (req: Request, res: Response) => {
     });
 
     logger.info('User logged in successfully', { userId: user.id });
-    res.json({
+    return sendSuccess(res, {
       token,
       user: {
         id: user.id,
@@ -152,10 +151,10 @@ export const login = async (req: Request, res: Response) => {
           description: role.description
         }))
       }
-    });
+    }, 'Login successful');
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 };
 
@@ -163,7 +162,7 @@ export const logout = async (req: AuthenticatedRequest, res: Response) => {
   try {
     const token = req.headers.authorization?.split(' ')[1];
     if (!token) {
-      return res.status(401).json({ message: 'No token provided' });
+      return sendError(res, 'No token provided', 401);
     }
 
     // Deactivate session
@@ -173,9 +172,9 @@ export const logout = async (req: AuthenticatedRequest, res: Response) => {
     });
 
     logger.info('User logged out successfully', { userId: req.user?.id ?? 'unknown' });
-    res.json({ message: 'Logged out successfully' });
+    return sendSuccess(res, null, 'Logged out successfully');
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 }; 

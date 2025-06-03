@@ -44,3 +44,63 @@
 {"level":"info","message":"Server is running on port 8000","timestamp":"2025-05-22T13:30:06.953Z"}
 {"ip":"::ffff:127.0.0.1","level":"info","message":"GET /api/users","method":"GET","timestamp":"2025-05-22T13:30:21.346Z","url":"/api/users"}
 {"count":2,"level":"info","message":"Retrieved all users","timestamp":"2025-05-22T13:30:21.771Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-05-22T19:16:59.551Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-05-22T19:18:43.442Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-05-30T17:42:32.464Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-05-30T17:44:59.085Z"}
+{"error":{"clientVersion":"5.22.0","errorCode":"P1000","name":"PrismaClientInitializationError"},"level":"error","message":"Failed to connect to database","timestamp":"2025-05-30T17:45:00.860Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-05-30T17:45:16.790Z"}
+{"error":{"clientVersion":"5.22.0","errorCode":"P1000","name":"PrismaClientInitializationError"},"level":"error","message":"Failed to connect to database","timestamp":"2025-05-30T17:45:17.636Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-05-30T17:50:11.214Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-05-30T17:50:12.840Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-05-30T17:51:57.188Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-05-30T17:51:57.849Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-05-30T17:59:10.929Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-05-30T17:59:12.532Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-05-30T17:59:38.529Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-05-30T17:59:40.644Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-05-30T17:59:41.425Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /api/health","method":"GET","timestamp":"2025-05-30T18:03:32.004Z","url":"/api/health"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /api/health","method":"GET","timestamp":"2025-05-30T18:03:44.813Z","url":"/api/health"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /health","method":"GET","timestamp":"2025-05-30T18:05:09.072Z","url":"/health"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T18:01:40.604Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T18:01:42.242Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:12:47.427Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:12:49.201Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:13:05.905Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:13:06.388Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /api/auth/login","method":"POST","timestamp":"2025-06-02T19:13:18.632Z","url":"/api/auth/login"}
+{"email":"pranesh11@gmail.com","level":"warn","message":"Login attempt with non-existent email","timestamp":"2025-06-02T19:13:19.251Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /api/auth/register","method":"POST","timestamp":"2025-06-02T19:14:08.834Z","url":"/api/auth/register"}
+{"level":"info","message":"User registered successfully","timestamp":"2025-06-02T19:14:10.268Z","userId":"e81deb60-aa20-483f-a33d-d853875b4ac6"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /api/auth/login","method":"POST","timestamp":"2025-06-02T19:14:13.719Z","url":"/api/auth/login"}
+{"level":"info","message":"User logged in successfully","timestamp":"2025-06-02T19:14:14.140Z","userId":"e81deb60-aa20-483f-a33d-d853875b4ac6"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /api/profile","method":"POST","timestamp":"2025-06-02T19:15:11.632Z","url":"/api/profile"}
+{"level":"warn","message":"Authentication attempt without token","timestamp":"2025-06-02T19:15:11.633Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /api/profile","method":"POST","timestamp":"2025-06-02T19:15:45.402Z","url":"/api/profile"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /api/profile","method":"GET","timestamp":"2025-06-02T19:16:25.439Z","url":"/api/profile"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /api/profile","method":"GET","timestamp":"2025-06-02T19:16:27.296Z","url":"/api/profile"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /api/profile/","method":"POST","timestamp":"2025-06-02T19:16:38.535Z","url":"/api/profile/"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /api/profile","method":"POST","timestamp":"2025-06-02T19:16:45.254Z","url":"/api/profile"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /api/profile","method":"GET","timestamp":"2025-06-02T19:16:59.634Z","url":"/api/profile"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:18:38.887Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:18:40.430Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:18:46.027Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:18:46.553Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:18:59.130Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:19:00.588Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:19:07.950Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:19:08.394Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:19:22.260Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:19:23.777Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:19:27.306Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:19:27.746Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:20:30.148Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:20:31.718Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:21:01.833Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:21:03.335Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:21:57.748Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:21:59.261Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:22:08.284Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:22:08.793Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /api/profile","method":"GET","timestamp":"2025-06-02T19:22:21.729Z","url":"/api/profile"}

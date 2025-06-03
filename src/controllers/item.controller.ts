@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import { PrismaClient, User } from '@prisma/client';
 import logger from '../utils/logger';
 import { handlePrismaError } from '../utils/prisma-error';
+import { sendSuccess, sendError } from '../utils/response.util';
 
 const prisma = new PrismaClient();
 
@@ -20,10 +21,10 @@ export const createItem = async (req: AuthenticatedRequest, res: Response) => {
       }
     });
     logger.info('Item created successfully', { itemId: item.id });
-    res.status(201).json(item);
+    return sendSuccess(res, item, 'Item created successfully', 201);
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 };
 
@@ -32,10 +33,10 @@ export const getItems = async (req: AuthenticatedRequest, res: Response) => {
     const items = await prisma.item.findMany({
       where: { userId: req.user.id }
     });
-    res.json(items);
+    return sendSuccess(res, items, 'Items retrieved successfully');
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 };
 
@@ -48,18 +49,18 @@ export const getItem = async (req: AuthenticatedRequest, res: Response) => {
 
     if (!item) {
       logger.warn('Item not found', { itemId: id });
-      return res.status(404).json({ message: 'Item not found' });
+      return sendError(res, 'Item not found', 404);
     }
 
     if (item.userId !== req.user.id) {
       logger.warn('Unauthorized item access attempt', { itemId: id, userId: req.user.id });
-      return res.status(403).json({ message: 'Unauthorized access' });
+      return sendError(res, 'Unauthorized access', 403);
     }
 
-    res.json(item);
+    return sendSuccess(res, item, 'Item retrieved successfully');
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 };
 
@@ -74,12 +75,12 @@ export const updateItem = async (req: AuthenticatedRequest, res: Response) => {
 
     if (!existingItem) {
       logger.warn('Update attempt for non-existent item', { itemId: id });
-      return res.status(404).json({ message: 'Item not found' });
+      return sendError(res, 'Item not found', 404);
     }
 
     if (existingItem.userId !== req.user.id) {
       logger.warn('Unauthorized item update attempt', { itemId: id, userId: req.user.id });
-      return res.status(403).json({ message: 'Unauthorized access' });
+      return sendError(res, 'Unauthorized access', 403);
     }
 
     const updatedItem = await prisma.item.update({
@@ -88,10 +89,10 @@ export const updateItem = async (req: AuthenticatedRequest, res: Response) => {
     });
 
     logger.info('Item updated successfully', { itemId: id });
-    res.json(updatedItem);
+    return sendSuccess(res, updatedItem, 'Item updated successfully');
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 };
 
@@ -105,12 +106,12 @@ export const deleteItem = async (req: AuthenticatedRequest, res: Response) => {
 
     if (!existingItem) {
       logger.warn('Delete attempt for non-existent item', { itemId: id });
-      return res.status(404).json({ message: 'Item not found' });
+      return sendError(res, 'Item not found', 404);
     }
 
     if (existingItem.userId !== req.user.id) {
       logger.warn('Unauthorized item deletion attempt', { itemId: id, userId: req.user.id });
-      return res.status(403).json({ message: 'Unauthorized access' });
+      return sendError(res, 'Unauthorized access', 403);
     }
 
     await prisma.item.delete({
@@ -118,9 +119,9 @@ export const deleteItem = async (req: AuthenticatedRequest, res: Response) => {
     });
 
     logger.info('Item deleted successfully', { itemId: id });
-    res.json({ message: 'Item deleted successfully' });
+    return sendSuccess(res, null, 'Item deleted successfully');
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 }; 

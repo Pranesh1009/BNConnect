@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 import { PrismaClient } from '@prisma/client';
 import authRoutes from './routes/auth.routes';
 import userRoutes from './routes/user.routes';
+import profileRoutes from './routes/profile.routes';
 import logger from './utils/logger';
 
 dotenv.config();
@@ -67,8 +68,9 @@ app.get('/health', async (req, res) => {
 });
 
 // Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/users', userRoutes);
+app.use('/auth', authRoutes);
+app.use('/users', userRoutes);
+app.use('/profile', profileRoutes);
 
 // Error handling
 app.use((err: Error, req: express.Request, res: express.Response, next: express.NextFunction) => {

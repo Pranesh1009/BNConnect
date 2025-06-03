@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import { PrismaClient } from '@prisma/client';
 import logger from '../utils/logger';
 import { handlePrismaError } from '../utils/prisma-error';
+import { sendSuccess, sendError } from '../utils/response.util';
 
 const prisma = new PrismaClient();
 
@@ -14,7 +15,7 @@ export const getAllUsers = async (req: Request, res: Response) => {
       }
     });
 
-    res.json(users.map(user => ({
+    return sendSuccess(res, users.map(user => ({
       id: user.id,
       email: user.email,
       name: user.name,
@@ -23,10 +24,10 @@ export const getAllUsers = async (req: Request, res: Response) => {
         name: role.name,
         description: role.description
       }))
-    })));
+    })), 'Users retrieved successfully');
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 };
 
@@ -43,10 +44,10 @@ export const getUserById = async (req: Request, res: Response) => {
 
     if (!user) {
       logger.warn('User not found', { userId: id });
-      return res.status(404).json({ message: 'User not found' });
+      return sendError(res, 'User not found', 404);
     }
 
-    res.json({
+    return sendSuccess(res, {
       id: user.id,
       email: user.email,
       name: user.name,
@@ -55,10 +56,10 @@ export const getUserById = async (req: Request, res: Response) => {
         name: role.name,
         description: role.description
       }))
-    });
+    }, 'User retrieved successfully');
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 };
 
@@ -69,7 +70,7 @@ export const updateUser = async (req: Request, res: Response) => {
     const { name, email, roleIds } = req.body;
 
     if (!req.user) {
-      return res.status(401).json({ message: 'Authentication required' });
+      return sendError(res, 'Authentication required', 401);
     }
 
     // Check if user exists
@@ -80,7 +81,7 @@ export const updateUser = async (req: Request, res: Response) => {
 
     if (!existingUser) {
       logger.warn('Update attempt for non-existent user', { userId: id });
-      return res.status(404).json({ message: 'User not found' });
+      return sendError(res, 'User not found', 404);
     }
 
     // Get requesting user's role
@@ -90,7 +91,7 @@ export const updateUser = async (req: Request, res: Response) => {
     });
 
     if (!requestingUser) {
-      return res.status(401).json({ message: 'Requesting user not found' });
+      return sendError(res, 'Requesting user not found', 401);
     }
 
     const isSuperAdmin = requestingUser.roles.some(role => role.name === 'SUPER_ADMIN');
@@ -101,7 +102,7 @@ export const updateUser = async (req: Request, res: Response) => {
         requestingUserId: req.user.id,
         targetUserId: id
       });
-      return res.status(403).json({ message: 'Unauthorized access' });
+      return sendError(res, 'Unauthorized access', 403);
     }
 
     // Only SUPER_ADMIN can change roles
@@ -110,7 +111,7 @@ export const updateUser = async (req: Request, res: Response) => {
         requestingUserId: req.user.id,
         targetUserId: id
       });
-      return res.status(403).json({ message: 'Only super admin can change roles' });
+      return sendError(res, 'Only super admin can change roles', 403);
     }
 
     // Check if email is already taken by another user
@@ -120,7 +121,7 @@ export const updateUser = async (req: Request, res: Response) => {
       });
       if (emailExists) {
         logger.warn('Update attempt with existing email', { email });
-        return res.status(400).json({ message: 'Email already in use' });
+        return sendError(res, 'Email already in use', 400);
       }
     }
 
@@ -140,7 +141,7 @@ export const updateUser = async (req: Request, res: Response) => {
     });
 
     logger.info('User updated successfully', { userId: id });
-    res.json({
+    return sendSuccess(res, {
       id: updatedUser.id,
       email: updatedUser.email,
       name: updatedUser.name,
@@ -149,10 +150,10 @@ export const updateUser = async (req: Request, res: Response) => {
         name: role.name,
         description: role.description
       }))
-    });
+    }, 'User updated successfully');
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 };
 
@@ -162,7 +163,7 @@ export const deleteUser = async (req: Request, res: Response) => {
     const { id } = req.params;
 
     if (!req.user) {
-      return res.status(401).json({ message: 'Authentication required' });
+      return sendError(res, 'Authentication required', 401);
     }
 
     // Check if user exists
@@ -173,7 +174,7 @@ export const deleteUser = async (req: Request, res: Response) => {
 
     if (!existingUser) {
       logger.warn('Delete attempt for non-existent user', { userId: id });
-      return res.status(404).json({ message: 'User not found' });
+      return sendError(res, 'User not found', 404);
     }
 
     // Get requesting user's role
@@ -183,7 +184,7 @@ export const deleteUser = async (req: Request, res: Response) => {
     });
 
     if (!requestingUser) {
-      return res.status(401).json({ message: 'Requesting user not found' });
+      return sendError(res, 'Requesting user not found', 401);
     }
 
     const isSuperAdmin = requestingUser.roles.some(role => role.name === 'SUPER_ADMIN');
@@ -194,7 +195,7 @@ export const deleteUser = async (req: Request, res: Response) => {
         requestingUserId: req.user.id,
         targetUserId: id
       });
-      return res.status(403).json({ message: 'Only super admin can delete users' });
+      return sendError(res, 'Only super admin can delete users', 403);
     }
 
     // Delete user's sessions first
@@ -208,9 +209,9 @@ export const deleteUser = async (req: Request, res: Response) => {
     });
 
     logger.info('User deleted', { userId: id });
-    res.json({ message: 'User deleted successfully' });
+    return sendSuccess(res, null, 'User deleted successfully');
   } catch (error) {
     const prismaError = handlePrismaError(error);
-    res.status(prismaError.statusCode).json({ message: prismaError.message });
+    return sendError(res, prismaError.message, prismaError.statusCode);
   }
 }; 
