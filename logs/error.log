@@ -1,3 +1,116 @@
 {"error":{},"level":"error","message":"Error in login","timestamp":"2025-05-20T17:40:16.741Z"}
 {"error":{"clientVersion":"5.22.0","errorCode":"P1000","name":"PrismaClientInitializationError"},"level":"error","message":"Failed to connect to database","timestamp":"2025-05-30T17:45:00.860Z"}
 {"error":{"clientVersion":"5.22.0","errorCode":"P1000","name":"PrismaClientInitializationError"},"level":"error","message":"Failed to connect to database","timestamp":"2025-05-30T17:45:17.636Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error in role middleware","timestamp":"2025-06-05T04:58:09.811Z"}
+{"error":{"clientVersion":"5.22.0","code":"P2003","meta":{"field_name":"Chapter_presidentId_fkey (index)","modelName":"Chapter"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T10:16:55.249Z"}
+{"error":{"clientVersion":"5.22.0","code":"P2003","meta":{"field_name":"Chapter_userId_fkey (index)","modelName":"Chapter"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T10:27:23.012Z"}
+{"error":{"clientVersion":"5.22.0","code":"P2003","meta":{"field_name":"Chapter_presidentId_fkey (index)","modelName":"Chapter"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T10:29:01.531Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:31:06.138Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:46:27.178Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:46:42.584Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:46:44.649Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:46:49.319Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:47:14.745Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:48:07.137Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:48:09.284Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:48:13.306Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:48:29.148Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:49:02.835Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:49:04.933Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:49:08.966Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:50:14.087Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:50:15.370Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:51:29.190Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:09.716Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:12.446Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:13.489Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:15.522Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:19.562Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:54.293Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:58.204Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:55:00.386Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:55:04.423Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:55:21.117Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:55:22.258Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:56:02.554Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:56:06.613Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:56:58.031Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:56:59.161Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:07.851Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:12.944Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:13.991Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:27.178Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:28.926Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:31.243Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:35.272Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:44.656Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:45.715Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:47.753Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:58:24.213Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:05.027Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:06.150Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:08.174Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:12.459Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:23.256Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:24.467Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:26.530Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:30.566Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:56.116Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:57.396Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:59.459Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:00:03.494Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:00:35.885Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:00:37.046Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:00:39.077Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:00:43.113Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:05:48.800Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:05:49.822Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:05:51.858Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:05:55.892Z"}
+{"error":"TypeError: Cannot read properties of undefined (reading 'parse')\n    at D:\\Projects\\project1-app\\src\\validations\\user.validation.ts:34:36\n    at Layer.handle [as handle_request] (D:\\Projects\\project1-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\project1-app\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\Projects\\project1-app\\src\\middleware\\role.middleware.ts:43:7","level":"error","message":"Unhandled error","timestamp":"2025-06-05T12:05:57.816Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:07:23.605Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:07:24.645Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:07:26.671Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:07:30.712Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:08:38.600Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:08:40.761Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:08:42.797Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:08:46.830Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:13.084Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:14.127Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:16.158Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:20.183Z"}
+{"email":"pranesh.s1009@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T12:09:24.520Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T12:09:24.520Z","userId":"cf292200-6c88-4be1-ab23-ceeac70a789e"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:24.549Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:25.742Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:27.768Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:31.797Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:55.394Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:56.419Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:58.454Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:10:02.490Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:11:24.049Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:21:06.482Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:21:07.535Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:58:44.155Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T13:01:08.212Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T13:01:21.852Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T13:01:29.288Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T13:02:38.735Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T13:02:56.266Z"}
+{"email":"pranesh11.s1009@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:11:48.595Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:11:48.595Z","userId":"eeda1862-13e3-45ae-bcee-3ad14a948253"}
+{"email":"TEST@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:25:08.773Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:25:08.774Z","userId":"97f85429-0ec6-4b76-ba61-589e730c104f"}
+{"email":"testing.s1009@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:27:01.066Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:27:01.067Z","userId":"b9927583-8ae9-4743-aa4e-61f441d9ff58"}
+{"email":"testing1234@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:27:29.245Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:27:29.245Z","userId":"ec3ad389-630a-40bf-a2e7-1af05e6092b6"}
+{"email":"lovelypranesh1009@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:32:48.990Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:32:48.991Z","userId":"c466e5c0-6a9b-4bbf-b7c9-4738cf36e801"}
+{"email":"lovelypranesh1009@gmail.com","error":{"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23506cd351esm119661945ad.150 - gsmtp","responseCode":535},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:54:37.230Z"}
+{"error":{"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23506cd351esm119661945ad.150 - gsmtp","responseCode":535},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:54:37.231Z","userId":"b179467a-48f1-41d6-9ca7-9312a7995709"}
+{"email":"lovelypranesh1009@gmail.com","error":{"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-747afed4c0dsm12851203b3a.78 - gsmtp","responseCode":535},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:56:36.861Z"}
+{"error":{"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-747afed4c0dsm12851203b3a.78 - gsmtp","responseCode":535},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:56:36.862Z","userId":"68024e64-a9c6-4187-ab45-06240721b684"}
+{"error":{},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T15:38:56.864Z"}

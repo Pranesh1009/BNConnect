@@ -17,16 +17,21 @@ model Role {
 }
 
 model User {
-  id        String    @id @default(uuid())
-  email     String    @unique
-  password  String
-  name      String
-  roles     Role[]
-  createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
-  sessions  Session[]
-  items     Item[]
-  profile   Profile?
+  id                    String          @id @default(uuid())
+  email                 String          @unique
+  password              String
+  name                  String
+  mobileNumber          String?         @unique
+  roles                 Role[]
+  createdAt             DateTime        @default(now())
+  updatedAt             DateTime        @updatedAt
+  sessions              Session[]
+  items                 Item[]
+  profile               Profile?
+  chapters              Chapter[]       @relation("ChapterUser")
+  presidentChapters     Chapter[]       @relation("ChapterPresident")
+  vicePresidentChapters Chapter[]       @relation("ChapterVicePresident")
+  chapterMemberships    ChapterMember[]
 }
 
 model Session {
@@ -71,4 +76,60 @@ model Profile {
   updatedAt   DateTime @updatedAt
   userId      String   @unique
   user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model State {
+  id        String    @id @default(uuid())
+  name      String    @unique
+  code      String    @unique
+  cities    City[]
+  chapters  Chapter[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model City {
+  id        String    @id @default(uuid())
+  name      String
+  stateId   String
+  state     State     @relation(fields: [stateId], references: [id])
+  chapters  Chapter[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@unique([name, stateId])
+}
+
+model Chapter {
+  id              String          @id @default(uuid())
+  title           String
+  description     String?
+  content         String?
+  isActive        Boolean         @default(true)
+  stateId         String?
+  state           State?          @relation(fields: [stateId], references: [id])
+  cityId          String?
+  city            City?           @relation(fields: [cityId], references: [id])
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+  userId          String?
+  user            User?           @relation("ChapterUser", fields: [userId], references: [id], onDelete: SetNull)
+  presidentId     String?
+  president       User?           @relation("ChapterPresident", fields: [presidentId], references: [id], onDelete: SetNull)
+  vicePresidentId String?
+  vicePresident   User?           @relation("ChapterVicePresident", fields: [vicePresidentId], references: [id], onDelete: SetNull)
+  members         ChapterMember[]
+}
+
+model ChapterMember {
+  id        String   @id @default(uuid())
+  chapterId String
+  userId    String
+  role      String   @default("MEMBER") // Can be MEMBER, LEADER, etc.
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  chapter   Chapter  @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([chapterId, userId])
 }

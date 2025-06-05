@@ -104,3 +104,1239 @@
 {"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-02T19:22:08.284Z"}
 {"level":"info","message":"Database connection established successfully","timestamp":"2025-06-02T19:22:08.793Z"}
 {"ip":"::ffff:127.0.0.1","level":"info","message":"GET /api/profile","method":"GET","timestamp":"2025-06-02T19:22:21.729Z","url":"/api/profile"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T04:53:05.539Z"}
+{"ip":"::1","level":"info","message":"POST /auth/login","method":"POST","timestamp":"2025-06-05T04:53:06.282Z","url":"/auth/login"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T04:53:06.396Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2025-06-05T04:53:07.647Z","userId":"e81deb60-aa20-483f-a33d-d853875b4ac6"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /api/users","method":"GET","timestamp":"2025-06-05T04:53:35.706Z","url":"/api/users"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /api/users","method":"GET","timestamp":"2025-06-05T04:53:37.375Z","url":"/api/users"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /users","method":"GET","timestamp":"2025-06-05T04:54:27.980Z","url":"/users"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T04:55:13.469Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T04:55:14.012Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T04:55:21.558Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T04:55:22.073Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T04:55:32.078Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T04:55:32.574Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T04:55:47.538Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T04:55:48.080Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /users","method":"GET","timestamp":"2025-06-05T04:55:55.460Z","url":"/users"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T04:57:21.431Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T04:57:21.947Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T04:57:30.247Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T04:57:30.781Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T04:57:42.828Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T04:57:44.201Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T04:57:57.772Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T04:57:58.789Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /users","method":"GET","timestamp":"2025-06-05T04:58:03.589Z","url":"/users"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error in role middleware","timestamp":"2025-06-05T04:58:09.811Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /users","method":"GET","timestamp":"2025-06-05T04:58:27.680Z","url":"/users"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T04:58:56.739Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T04:58:58.888Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T04:59:09.524Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T04:59:10.237Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /users","method":"GET","timestamp":"2025-06-05T04:59:16.534Z","url":"/users"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T05:00:13.484Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T05:00:14.494Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /users","method":"GET","timestamp":"2025-06-05T05:00:16.980Z","url":"/users"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /auth/login","method":"POST","timestamp":"2025-06-05T05:00:34.110Z","url":"/auth/login"}
+{"level":"info","message":"User logged in successfully","timestamp":"2025-06-05T05:00:35.797Z","userId":"e81deb60-aa20-483f-a33d-d853875b4ac6"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T06:27:18.644Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T06:27:19.589Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T06:28:08.032Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T06:28:08.638Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T06:28:16.400Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T06:28:16.878Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T06:28:36.339Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T06:28:36.827Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T06:29:58.792Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T06:29:59.458Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T06:30:43.257Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T06:30:44.221Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T06:46:04.827Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T06:46:05.037Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /api/auth/register","method":"POST","timestamp":"2025-06-05T06:46:13.552Z","url":"/api/auth/register"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /auth/register","method":"POST","timestamp":"2025-06-05T06:46:21.109Z","url":"/auth/register"}
+{"level":"info","message":"User registered successfully","timestamp":"2025-06-05T06:46:21.443Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /auth/login","method":"POST","timestamp":"2025-06-05T06:46:36.585Z","url":"/auth/login"}
+{"level":"info","message":"User logged in successfully","timestamp":"2025-06-05T06:46:36.729Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"PUT /auth/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66","method":"PUT","timestamp":"2025-06-05T06:48:30.939Z","url":"/auth/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T06:49:29.076Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T06:49:29.217Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"PUT /auth/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66","method":"PUT","timestamp":"2025-06-05T06:49:30.930Z","url":"/auth/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T06:49:54.261Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T06:49:54.434Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /auth/login","method":"POST","timestamp":"2025-06-05T06:49:57.984Z","url":"/auth/login"}
+{"level":"info","message":"User logged in successfully","timestamp":"2025-06-05T06:49:58.210Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"PUT /auth/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66","method":"PUT","timestamp":"2025-06-05T06:50:18.880Z","url":"/auth/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"PUT /users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66","method":"PUT","timestamp":"2025-06-05T06:50:35.103Z","url":"/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"level":"warn","message":"Authentication attempt without token","timestamp":"2025-06-05T06:50:35.107Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T06:50:49.835Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T06:50:49.956Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"PUT /users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66","method":"PUT","timestamp":"2025-06-05T06:50:53.921Z","url":"/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"level":"warn","message":"Authentication attempt without token","timestamp":"2025-06-05T06:50:53.922Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"PUT /users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66","method":"PUT","timestamp":"2025-06-05T06:51:13.659Z","url":"/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"level":"info","message":"User updated successfully","timestamp":"2025-06-05T06:51:13.837Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"PUT /users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66","method":"PUT","timestamp":"2025-06-05T06:51:27.742Z","url":"/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"level":"info","message":"User updated successfully","timestamp":"2025-06-05T06:51:27.764Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"PUT /users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66","method":"PUT","timestamp":"2025-06-05T06:51:30.264Z","url":"/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"level":"info","message":"User updated successfully","timestamp":"2025-06-05T06:51:30.288Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"PUT /users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66","method":"PUT","timestamp":"2025-06-05T06:53:33.068Z","url":"/users/0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"level":"warn","message":"Unauthorized role update attempt","requestingUserId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66","targetUserId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66","timestamp":"2025-06-05T06:53:33.084Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /auth/login","method":"POST","timestamp":"2025-06-05T06:54:48.950Z","url":"/auth/login"}
+{"level":"info","message":"User logged in successfully","timestamp":"2025-06-05T06:54:49.254Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /chapter","method":"GET","timestamp":"2025-06-05T06:56:27.706Z","url":"/chapter"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /chapters","method":"GET","timestamp":"2025-06-05T06:56:30.906Z","url":"/chapters"}
+{"ip":"::1","level":"info","message":"POST /login","method":"POST","timestamp":"2025-06-05T10:03:20.641Z","url":"/login"}
+{"ip":"::1","level":"info","message":"POST /auth/login","method":"POST","timestamp":"2025-06-05T10:03:46.653Z","url":"/auth/login"}
+{"level":"info","message":"User logged in successfully","timestamp":"2025-06-05T10:03:46.932Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:06:37.400Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:07:00.271Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:07:10.312Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:07:11.305Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:07:16.176Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:07:25.929Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:08:07.970Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:09:45.458Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:10:35.999Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:10:42.303Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:10:43.118Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:11:13.401Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:12:51.897Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:12:54.428Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:13:14.674Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:14:30.622Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:14:36.058Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:15:11.752Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:15:17.917Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:15:53.290Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:15:57.642Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:16:53.231Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:16:53.521Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T10:16:55.129Z","url":"/chapters"}
+{"error":{"clientVersion":"5.22.0","code":"P2003","meta":{"field_name":"Chapter_presidentId_fkey (index)","modelName":"Chapter"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T10:16:55.249Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:18:18.929Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T10:20:26.731Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T10:20:27.466Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T10:20:58.740Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T10:20:58.822Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T10:23:03.864Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T10:23:04.223Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:25:05.556Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T10:25:07.818Z","url":"/chapters"}
+{"level":"warn","message":"Unauthorized chapter creation attempt","timestamp":"2025-06-05T10:25:07.869Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /users","method":"GET","timestamp":"2025-06-05T10:25:26.997Z","url":"/users"}
+{"level":"warn","message":"Insufficient permissions","requiredRoles":["SUPER_ADMIN","LEADER"],"timestamp":"2025-06-05T10:25:27.179Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66","userRoles":["SUPER ADMIN"]}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /auth/login","method":"POST","timestamp":"2025-06-05T10:25:34.403Z","url":"/auth/login"}
+{"level":"info","message":"User logged in successfully","timestamp":"2025-06-05T10:25:34.615Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /auth/login","method":"POST","timestamp":"2025-06-05T10:25:38.050Z","url":"/auth/login"}
+{"level":"info","message":"User logged in successfully","timestamp":"2025-06-05T10:25:38.176Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /users","method":"GET","timestamp":"2025-06-05T10:26:01.150Z","url":"/users"}
+{"level":"warn","message":"Insufficient permissions","requiredRoles":["SUPER_ADMIN","LEADER"],"timestamp":"2025-06-05T10:26:01.163Z","userId":"0e94202d-b4d0-41bb-a41b-9ccf501e1a66","userRoles":["SUPER ADMIN"]}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:26:13.285Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:26:42.175Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:27:21.453Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T10:27:22.953Z","url":"/chapters"}
+{"error":{"clientVersion":"5.22.0","code":"P2003","meta":{"field_name":"Chapter_userId_fkey (index)","modelName":"Chapter"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T10:27:23.012Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:29:00.224Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T10:29:01.494Z","url":"/chapters"}
+{"error":{"clientVersion":"5.22.0","code":"P2003","meta":{"field_name":"Chapter_presidentId_fkey (index)","modelName":"Chapter"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T10:29:01.531Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:30:23.199Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:30:43.419Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:30:44.914Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:30:49.106Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:30:50.208Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T10:31:03.879Z","url":"/chapters"}
+{"chapterId":"7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa","level":"info","message":"Chapter created successfully","timestamp":"2025-06-05T10:31:03.922Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:31:03.938Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:31:08.126Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:31:13.912Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:32:10.971Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:32:12.363Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:32:29.812Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:32:44.176Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:32:45.540Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:32:50.894Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:32:51.512Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:32:53.271Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:33:08.053Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:33:18.988Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:33:20.086Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:33:30.201Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:33:31.161Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:33:52.422Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:33:57.113Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:33:58.059Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:34:17.686Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:34:19.117Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:34:28.112Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:34:28.941Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:34:33.436Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:34:37.435Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:34:38.822Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:46:01.571Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:46:11.170Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:46:23.395Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:50:13.867Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:50:15.487Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:50:19.101Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:50:26.487Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:50:45.500Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:50:58.916Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:51:00.932Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=2&search=","method":"GET","timestamp":"2025-06-05T10:51:04.096Z","url":"/chapters?page=2&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=3&search=","method":"GET","timestamp":"2025-06-05T10:51:07.322Z","url":"/chapters?page=3&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=2&search=","method":"GET","timestamp":"2025-06-05T10:51:08.439Z","url":"/chapters?page=2&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:51:09.095Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=2&search=","method":"GET","timestamp":"2025-06-05T10:51:11.143Z","url":"/chapters?page=2&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=0&search=","method":"GET","timestamp":"2025-06-05T10:51:12.027Z","url":"/chapters?page=0&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:51:13.294Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:51:15.464Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:51:17.468Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:51:21.713Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:51:42.005Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:51:42.748Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:51:56.477Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:51:57.739Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:52:54.671Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:52:56.964Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:52:57.796Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:53:09.485Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:53:17.230Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:53:18.544Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:53:21.061Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:53:22.283Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:53:30.750Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:53:32.081Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:53:47.891Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:53:49.028Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:09.773Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:10.933Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:22.210Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:23.378Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:30.034Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:30.784Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:39.726Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:40.203Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:42.783Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:47.159Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:48.972Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:58.183Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:54:59.256Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:55:09.702Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:55:11.971Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:56:35.782Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:57:31.016Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:58:00.790Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:58:39.708Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:58:56.365Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:59:29.404Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:59:30.671Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T10:59:46.392Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:00:01.184Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:01:55.205Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:02:03.748Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:03:03.004Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:03:32.501Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:06:53.576Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:06:58.543Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:07:00.861Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:07:13.758Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:07:14.661Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:07:16.590Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:07:23.857Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:07:43.215Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:07:44.731Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:07:48.611Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:07:50.017Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:07:56.416Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:08:01.229Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:08:02.503Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:26:46.302Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:26:50.137Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:27:06.766Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:27:18.463Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:27:30.977Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:30:10.726Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:30:10.729Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:30:40.249Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:30:40.466Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:30:49.681Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:30:50.902Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:31:05.736Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:31:05.752Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:31:06.138Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:31:12.718Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:31:19.324Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T11:31:29.826Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:31:59.946Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:32:00.132Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:34:02.399Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:34:02.520Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:37:40.547Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:37:40.721Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:37:53.933Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:37:54.169Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:38:02.022Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:38:02.159Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:38:07.627Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:38:07.739Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:38:33.877Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:38:33.997Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:38:37.382Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:38:37.515Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:46:26.791Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:46:26.818Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:46:27.178Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:46:27.399Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:46:42.558Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:46:42.566Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:46:42.584Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:46:42.598Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:46:44.636Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:46:44.642Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:46:44.649Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:46:44.655Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:46:49.265Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:46:49.299Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:46:49.319Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:46:49.335Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:47:14.676Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:47:14.717Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:47:14.745Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:47:14.755Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:48:07.100Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:48:07.114Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:48:07.137Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:48:07.148Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:48:09.274Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:48:09.278Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:48:09.284Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:48:09.288Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:48:13.296Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:48:13.306Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:48:13.314Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:48:13.322Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:48:29.128Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:48:29.133Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:48:29.148Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:48:29.159Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:49:02.788Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:49:02.812Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:49:02.835Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:49:02.882Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:49:04.919Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:49:04.922Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:49:04.933Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:49:04.937Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:49:08.954Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:49:08.958Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:49:08.966Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:49:08.970Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T11:49:17.829Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:50:14.039Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:50:14.053Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:50:14.087Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:50:14.111Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:50:15.337Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:50:15.345Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:50:15.370Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:50:15.393Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:50:24.976Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:50:25.185Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:50:58.473Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:50:58.723Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:51:27.945Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:51:28.061Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:51:29.190Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:51:29.600Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:53:25.801Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:53:25.963Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:53:38.035Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:53:38.754Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:54:06.995Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:54:07.878Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:54:09.297Z","url":"/users/chapter/1"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:54:09.323Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:09.716Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:54:09.746Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:54:12.414Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:54:12.420Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:12.446Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:54:12.464Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:54:13.476Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:13.489Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:54:13.493Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:54:13.511Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:54:15.507Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:15.522Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:54:15.547Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:54:15.569Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:54:19.546Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:19.562Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:54:19.711Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:54:19.731Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T11:54:30.478Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:54:54.277Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:54:54.282Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:54.293Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:54:54.300Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:54:58.145Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:54:58.180Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:54:58.204Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:54:58.218Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:55:00.373Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:55:00.376Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:55:00.386Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:55:00.390Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:55:04.409Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:55:04.412Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:55:04.423Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:55:04.429Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T11:55:13.814Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:55:21.037Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:55:21.088Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:55:21.117Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:55:21.125Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:55:22.243Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:55:22.248Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:55:22.258Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:55:22.263Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:56:02.195Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:56:02.336Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:56:02.554Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:56:02.635Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:56:06.602Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:56:06.613Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:56:06.770Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:56:06.787Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T11:56:08.706Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:56:57.921Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:56:57.998Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:56:58.031Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:56:58.039Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:56:59.144Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:56:59.147Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:56:59.161Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:56:59.169Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:57:07.601Z","url":"/users/chapter/1"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:57:07.703Z","url":"/chapters?page=-1&search="}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:57:07.826Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:07.851Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:57:12.922Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:57:12.928Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:12.944Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:57:12.953Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:57:13.967Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:57:13.979Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:13.991Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:57:14.004Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:57:26.626Z","url":"/users/chapter/1"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:57:26.711Z","url":"/chapters?page=-1&search="}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:57:26.978Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:27.178Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:57:28.629Z","url":"/users/chapter/1"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:57:28.646Z","url":"/chapters?page=-1&search="}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:57:28.795Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:28.926Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:57:31.221Z","url":"/users/chapter/1"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:57:31.225Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:31.243Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:57:31.245Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:57:35.258Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:57:35.261Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:35.272Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:57:35.277Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T11:57:37.441Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:57:44.551Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:57:44.559Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:44.656Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:57:44.691Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:57:45.701Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:45.715Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:57:45.717Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:57:45.732Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:57:47.735Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:57:47.747Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:57:47.753Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:57:47.762Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:58:24.195Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:58:24.200Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:58:24.213Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:58:24.219Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T11:58:25.779Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T11:58:38.620Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:59:04.812Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:59:04.914Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:05.027Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:59:05.082Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:59:06.137Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:06.150Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:59:06.241Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:59:06.257Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:59:08.162Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:08.174Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:59:08.270Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:59:08.284Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:59:12.189Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:59:12.310Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:12.459Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:59:12.495Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T11:59:20.335Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T11:59:20.414Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:59:22.906Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:59:22.954Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:23.256Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:59:23.501Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T11:59:24.423Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:59:24.428Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:24.467Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:59:24.786Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:59:24.802Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:59:26.515Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:26.530Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:59:26.828Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:59:26.842Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:59:30.550Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:30.566Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:59:30.862Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:59:30.874Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:59:56.048Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:59:56.079Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:56.116Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:59:56.132Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:59:57.378Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:59:57.383Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:57.396Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:59:57.425Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T11:59:59.443Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T11:59:59.447Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T11:59:59.459Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T11:59:59.468Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:00:03.479Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:00:03.483Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:00:03.494Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:00:03.500Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T12:00:05.586Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T12:00:13.127Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:00:35.864Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:00:35.868Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:00:35.885Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:00:35.897Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:00:37.031Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:00:37.034Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:00:37.046Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:00:37.051Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:00:39.063Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:00:39.066Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:00:39.077Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:00:39.082Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:00:43.097Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:00:43.101Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:00:43.113Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:00:43.118Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:05:10.576Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:05:10.666Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:05:17.786Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:05:17.901Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:05:30.627Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:05:30.732Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:05:45.193Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:05:45.299Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:05:48.390Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:05:48.421Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:05:48.692Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:05:48.800Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:05:49.705Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:05:49.721Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:05:49.809Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:05:49.822Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:05:51.740Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:05:51.755Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:05:51.843Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:05:51.858Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:05:55.775Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:05:55.791Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:05:55.878Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:05:55.892Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T12:05:57.791Z","url":"/users/chapter"}
+{"error":"TypeError: Cannot read properties of undefined (reading 'parse')\n    at D:\\Projects\\project1-app\\src\\validations\\user.validation.ts:34:36\n    at Layer.handle [as handle_request] (D:\\Projects\\project1-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\project1-app\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\Projects\\project1-app\\src\\middleware\\role.middleware.ts:43:7","level":"error","message":"Unhandled error","timestamp":"2025-06-05T12:05:57.816Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:06:50.236Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:06:50.522Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:07:02.014Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:07:02.132Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:07:11.094Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:07:11.213Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:07:21.787Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:07:22.214Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:07:23.383Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:07:23.408Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:07:23.605Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:07:23.835Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:07:24.626Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:07:24.645Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:07:24.849Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:07:24.871Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:07:26.659Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:07:26.671Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:07:26.894Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:07:26.907Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:07:30.698Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:07:30.712Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:07:30.927Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:07:30.939Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T12:07:51.252Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:08:38.459Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:08:38.517Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:08:38.600Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:08:38.632Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:08:40.505Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:08:40.558Z","url":"/chapters?page=-1&search="}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:08:40.581Z","url":"/users/chapter/1"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:08:40.609Z"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:08:40.761Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:08:40.864Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:08:42.782Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:08:42.797Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:08:42.881Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:08:42.901Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T12:08:43.259Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:08:46.816Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:08:46.830Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:08:46.997Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:08:47.013Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:09:12.148Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:09:12.238Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:09:12.855Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:09:12.882Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:13.084Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:09:13.188Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:09:14.110Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:14.127Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:09:14.210Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:09:14.221Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T12:09:14.815Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:09:16.147Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:16.158Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:09:16.231Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:09:16.243Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:09:20.170Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:20.183Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:09:20.331Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:09:20.350Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T12:09:24.340Z","url":"/users/chapter"}
+{"email":"pranesh.s1009@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T12:09:24.520Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T12:09:24.520Z","userId":"cf292200-6c88-4be1-ab23-ceeac70a789e"}
+{"chapterId":"7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa","level":"info","message":"User created and assigned to chapter successfully","timestamp":"2025-06-05T12:09:24.521Z","userId":"cf292200-6c88-4be1-ab23-ceeac70a789e"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:09:24.533Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:24.549Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:09:25.730Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:25.742Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:09:27.758Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:27.768Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:09:31.783Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:31.797Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:09:55.278Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:09:55.340Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:55.394Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:09:55.400Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:09:56.406Z","url":"/chapters?page=-1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:56.419Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:09:56.421Z","url":"/users/chapter/1"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:09:56.435Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:09:58.438Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:09:58.447Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:09:58.454Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:09:58.461Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:10:02.476Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:10:02.480Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:10:02.490Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:10:02.497Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:11:24.013Z","url":"/chapters?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/1","method":"GET","timestamp":"2025-06-05T12:11:24.025Z","url":"/users/chapter/1"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:11:24.049Z"}
+{"chapterId":"1","level":"warn","message":"Attempt to get users for non-existent chapter","timestamp":"2025-06-05T12:11:24.059Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:11:25.114Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:11:55.629Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:12:22.310Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:14:14.156Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:15:10.931Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:15:17.908Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:15:43.781Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:15:44.762Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:16:13.168Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:17:47.841Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:17:48.466Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:17:59.081Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:18:42.439Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:18:42.525Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:18:42.602Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:18:44.729Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:19:45.185Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:19:45.291Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:19:53.518Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:19:53.727Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:20:00.891Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:20:01.023Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:20:13.845Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:20:15.764Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:20:25.725Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:20:28.661Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:20:47.041Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:20:47.161Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:20:47.268Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:21:03.159Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:21:04.838Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:21:04.918Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:21:06.194Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:21:06.482Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:21:07.504Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:21:07.535Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:21:49.128Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:21:49.480Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:21:59.479Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:21:59.599Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:22:17.970Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:22:29.247Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:23:29.521Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:23:29.740Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:23:38.697Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:23:38.838Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:23:40.310Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:23:48.447Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:23:49.519Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:23:56.085Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:24:08.453Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:24:10.068Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:25:06.416Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:25:06.553Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:25:06.597Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:25:16.066Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:25:19.919Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:25:25.141Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:25:29.009Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:25:30.427Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:25:43.083Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:26:04.297Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:26:10.364Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:26:13.337Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:29:48.132Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:29:51.591Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:29:53.289Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:30:13.572Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:30:42.430Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:30:43.973Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:30:45.696Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:30:49.810Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:30:51.387Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:31:46.341Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:31:48.453Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:31:51.888Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:31:53.753Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:31:54.997Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:31:56.294Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T12:31:59.570Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:32:03.353Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:32:34.244Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:33:12.142Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:33:14.405Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:33:16.262Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:33:27.859Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:34:00.380Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:34:02.352Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:34:23.231Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:34:25.122Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:34:39.531Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:34:41.139Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:34:44.114Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:35:59.984Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:36:27.218Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:36:27.339Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:37:21.741Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:37:21.937Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:37:54.385Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:38:54.396Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:39:12.528Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:39:12.700Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:39:47.669Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:39:47.772Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:42:23.604Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:42:23.773Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:42:27.336Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:42:27.454Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:42:43.398Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:42:43.503Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:43:02.265Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:43:02.382Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:43:06.648Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:43:06.856Z"}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:02.467Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:46:02.490Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:03.507Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:05.522Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:08.159Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:09.543Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:09.664Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:11.710Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:46:16.111Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:16.134Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:16.177Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:17.226Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:19.254Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:23.273Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:46:38.297Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:38.500Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:38.646Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:39.744Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:39.747Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:41.756Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:41.767Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:46:43.810Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:46:51.358Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:51.371Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:51.393Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:46:59.835Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:59.845Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:46:59.853Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:00.896Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:00.900Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:02.914Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:02.916Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:06.936Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:06.938Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:14.288Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:47:14.302Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:14.310Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:15.333Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:15.368Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:47:23.082Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:23.132Z","url":"/chapter/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapter/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:23.142Z","url":"/chapter/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:47:24.760Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:27.172Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:27.177Z","url":"/chapters/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:47:34.332Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:34.342Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:34.357Z","url":"/chapters/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Tamil%20Nadu&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:35.438Z","url":"/chapters/cities?state=Tamil%20Nadu&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Bihar&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:36.731Z","url":"/chapters/cities?state=Bihar&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Bihar&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:37.767Z","url":"/chapters/cities?state=Bihar&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Bihar&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:39.782Z","url":"/chapters/cities?state=Bihar&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Arunachal%20Pradesh&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:40.611Z","url":"/chapters/cities?state=Arunachal%20Pradesh&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Arunachal%20Pradesh&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:44.329Z","url":"/chapters/cities?state=Arunachal%20Pradesh&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:44.375Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:47:44.386Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Arunachal%20Pradesh&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:46.453Z","url":"/chapters/cities?state=Arunachal%20Pradesh&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Arunachal%20Pradesh&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:47:50.473Z","url":"/chapters/cities?state=Arunachal%20Pradesh&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:48:20.862Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:20.870Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Arunachal%20Pradesh&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:20.883Z","url":"/chapters/cities?state=Arunachal%20Pradesh&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Arunachal%20Pradesh&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:21.952Z","url":"/chapters/cities?state=Arunachal%20Pradesh&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Arunachal%20Pradesh&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:23.982Z","url":"/chapters/cities?state=Arunachal%20Pradesh&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Bihar&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:25.661Z","url":"/chapters/cities?state=Bihar&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Bihar&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:26.691Z","url":"/chapters/cities?state=Bihar&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Bihar&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:28.717Z","url":"/chapters/cities?state=Bihar&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:48:43.600Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:43.658Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Bihar&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:43.723Z","url":"/chapters/cities?state=Bihar&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:48:45.730Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:45.736Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Bihar&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:45.745Z","url":"/chapters/cities?state=Bihar&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Bihar&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:46.768Z","url":"/chapters/cities?state=Bihar&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=Bihar&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:48.792Z","url":"/chapters/cities?state=Bihar&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:49.374Z","url":"/chapters/cities?state=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:50.421Z","url":"/chapters/cities?state=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:52.442Z","url":"/chapters/cities?state=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:48:56.460Z","url":"/chapters/cities?state=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:49:17.698Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:49:17.771Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?state=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:49:17.844Z","url":"/chapters/cities?state=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:49:19.667Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:49:19.686Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:49:19.708Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:49:46.977Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:49:47.083Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:49:47.115Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:50:33.871Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:33.948Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:33.973Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:50:37.899Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:37.904Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:37.909Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:44.913Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:50:45.036Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:45.054Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:50:47.021Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:47.048Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:47.092Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:50:55.903Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:55.917Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:55.925Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:50:57.643Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:57.650Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:50:57.658Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:51:16.890Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:51:16.916Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:51:16.975Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:51:18.888Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:51:18.894Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:51:18.902Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:51:23.369Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:51:23.384Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:51:23.403Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:51:25.003Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:51:25.009Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:51:25.017Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:52:07.467Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:52:07.578Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:52:21.531Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:52:21.622Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:52:21.659Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:53:01.388Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:53:01.405Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:53:01.419Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:53:55.137Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:53:55.145Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:53:55.151Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:54:03.073Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:54:03.080Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:54:03.086Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:54:26.954Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:54:27.122Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:54:39.886Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:54:40.086Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T12:55:25.678Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T12:55:25.842Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:55:26.593Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:55:26.679Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:55:26.688Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:55:28.487Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:55:28.527Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:55:28.540Z","url":"/chapters/cities?stateId=f9280730-c510-4e7a-b4aa-bd8e7599b27f&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:55:39.978Z","url":"/chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:57:22.864Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:57:27.038Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:57:29.252Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:57:29.257Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:57:44.809Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:57:44.818Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:57:44.830Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:58:10.090Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:58:10.109Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:58:10.132Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:58:17.631Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:58:17.644Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:58:17.664Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:58:37.975Z","url":"/chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search="}
+{"ip":"::1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T12:58:44.110Z","url":"/chapters"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T12:58:44.155Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:59:29.108Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:59:29.126Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:59:29.134Z","url":"/chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:59:29.146Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T12:59:46.719Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:59:46.736Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search=","method":"GET","timestamp":"2025-06-05T12:59:46.748Z","url":"/chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T12:59:46.760Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:00:19.339Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:00:19.346Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search=","method":"GET","timestamp":"2025-06-05T13:00:19.359Z","url":"/chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:00:19.364Z","url":"/users?page=-1&search="}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T13:00:52.255Z","url":"/chapters"}
+{"level":"warn","message":"Authentication attempt without token","timestamp":"2025-06-05T13:00:52.255Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T13:01:08.085Z","url":"/chapters"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T13:01:08.212Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T13:01:21.837Z","url":"/chapters"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T13:01:21.852Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T13:01:29.271Z","url":"/chapters"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T13:01:29.288Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:01:35.397Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:01:35.401Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search=","method":"GET","timestamp":"2025-06-05T13:01:35.408Z","url":"/chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:01:35.411Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:02:25.596Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:02:25.601Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search=","method":"GET","timestamp":"2025-06-05T13:02:25.607Z","url":"/chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:02:25.611Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:02:35.411Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:02:35.482Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search=","method":"GET","timestamp":"2025-06-05T13:02:35.508Z","url":"/chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:02:35.524Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T13:02:38.706Z","url":"/chapters"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T13:02:38.735Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T13:02:56.246Z","url":"/chapters"}
+{"error":{"clientVersion":"5.22.0","name":"PrismaClientValidationError"},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T13:02:56.266Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:04:40.564Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:04:40.744Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:05:05.502Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:05:05.539Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search=","method":"GET","timestamp":"2025-06-05T13:05:05.546Z","url":"/chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:05:05.557Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T13:05:08.828Z","url":"/chapters"}
+{"chapterId":"4731fabe-e540-426e-bfbf-300288ff6461","level":"info","message":"Chapter created successfully","timestamp":"2025-06-05T13:05:08.877Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:05:08.890Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:05:25.357Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:05:41.552Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:05:42.900Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:06:45.352Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:06:45.475Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:07:03.829Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:07:03.982Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:07:10.338Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:07:10.472Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:07:24.899Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:07:25.031Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:07:41.708Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:07:41.850Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:08:04.809Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:08:04.910Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:09:02.305Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:09:02.606Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:09:07.615Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:09:07.974Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:09:08.343Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T13:09:29.934Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:09:32.515Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:09:33.569Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:09:35.733Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T13:09:37.586Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:09:38.588Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:09:39.623Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:09:40.638Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:09:50.080Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:10:06.423Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:10:08.006Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:10:10.115Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:10:20.602Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:10:21.971Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:10:29.483Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:10:32.283Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T13:10:58.755Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T13:11:20.781Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:11:22.991Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:11:24.229Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:11:48.439Z","url":"/users/chapter"}
+{"email":"pranesh11.s1009@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:11:48.595Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:11:48.595Z","userId":"eeda1862-13e3-45ae-bcee-3ad14a948253"}
+{"chapterId":"4731fabe-e540-426e-bfbf-300288ff6461","level":"info","message":"User created and assigned to chapter successfully","timestamp":"2025-06-05T13:11:48.596Z","userId":"eeda1862-13e3-45ae-bcee-3ad14a948253"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:12:02.106Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:12:05.328Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:12:15.582Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T13:12:17.434Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:12:19.221Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:12:32.744Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:13:21.961Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:13:50.062Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:14:25.969Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:15:24.907Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:15:27.473Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:15:27.580Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:16:06.296Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:16:06.402Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:16:09.444Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:16:15.824Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:16:17.050Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:16:51.933Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:16:52.055Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:16:52.084Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:17:28.744Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:17:28.867Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:17:49.461Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:17:49.622Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:18:19.861Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:18:19.961Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:19:09.951Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:19:10.063Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:19:28.141Z"}
+{"ip":"::ffff:127.0.0.1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:19:28.212Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:19:28.240Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:19:49.971Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:20:24.335Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:20:24.419Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:20:36.042Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:20:51.014Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T13:20:53.116Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:20:54.552Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:20:55.738Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:20:57.059Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T13:20:58.533Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:21:00.302Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:21:01.389Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:21:03.516Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:21:14.563Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:21:14.650Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:21:14.783Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:22:27.513Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:22:27.698Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:23:14.234Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:23:14.376Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:23:21.975Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:23:22.112Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:23:49.944Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:23:50.070Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:24:24.867Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:24:25.266Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:24:25.978Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:24:36.623Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:24:38.075Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:24:41.088Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T13:24:42.353Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:25:08.580Z","url":"/users/chapter"}
+{"email":"TEST@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:25:08.773Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:25:08.774Z","userId":"97f85429-0ec6-4b76-ba61-589e730c104f"}
+{"chapterId":"7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa","level":"info","message":"User created and assigned to chapter successfully","timestamp":"2025-06-05T13:25:08.775Z","userId":"97f85429-0ec6-4b76-ba61-589e730c104f"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T13:25:33.975Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:25:40.783Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:25:40.911Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T13:25:40.997Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:25:45.178Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:25:47.377Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:25:47.382Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search=","method":"GET","timestamp":"2025-06-05T13:26:07.870Z","url":"/chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search="}
+{"ip":"::1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T13:26:20.150Z","url":"/chapters"}
+{"chapterId":"9ecef2a9-9554-403b-aa61-9ad30e8403f8","level":"info","message":"Chapter created successfully","timestamp":"2025-06-05T13:26:20.185Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:26:20.199Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search=","method":"GET","timestamp":"2025-06-05T13:26:27.892Z","url":"/users/chapter/4731fabe-e540-426e-bfbf-300288ff6461?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:26:29.955Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search=","method":"GET","timestamp":"2025-06-05T13:26:32.197Z","url":"/users/chapter/7bc5aa4a-be39-46c6-ac03-d9b90b66b5aa?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:26:34.090Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/9ecef2a9-9554-403b-aa61-9ad30e8403f8?page=1&search=","method":"GET","timestamp":"2025-06-05T13:26:35.513Z","url":"/users/chapter/9ecef2a9-9554-403b-aa61-9ad30e8403f8?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:27:00.905Z","url":"/users/chapter"}
+{"email":"testing.s1009@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:27:01.066Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:27:01.067Z","userId":"b9927583-8ae9-4743-aa4e-61f441d9ff58"}
+{"chapterId":"9ecef2a9-9554-403b-aa61-9ad30e8403f8","level":"info","message":"User created and assigned to chapter successfully","timestamp":"2025-06-05T13:27:01.068Z","userId":"b9927583-8ae9-4743-aa4e-61f441d9ff58"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/9ecef2a9-9554-403b-aa61-9ad30e8403f8?page=1&search=","method":"GET","timestamp":"2025-06-05T13:27:01.083Z","url":"/users/chapter/9ecef2a9-9554-403b-aa61-9ad30e8403f8?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:27:04.177Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/9ecef2a9-9554-403b-aa61-9ad30e8403f8?page=1&search=","method":"GET","timestamp":"2025-06-05T13:27:07.844Z","url":"/users/chapter/9ecef2a9-9554-403b-aa61-9ad30e8403f8?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:27:29.125Z","url":"/users/chapter"}
+{"email":"testing1234@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:27:29.245Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:27:29.245Z","userId":"ec3ad389-630a-40bf-a2e7-1af05e6092b6"}
+{"chapterId":"9ecef2a9-9554-403b-aa61-9ad30e8403f8","level":"info","message":"User created and assigned to chapter successfully","timestamp":"2025-06-05T13:27:29.246Z","userId":"ec3ad389-630a-40bf-a2e7-1af05e6092b6"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/9ecef2a9-9554-403b-aa61-9ad30e8403f8?page=1&search=","method":"GET","timestamp":"2025-06-05T13:27:29.259Z","url":"/users/chapter/9ecef2a9-9554-403b-aa61-9ad30e8403f8?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:27:31.363Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:28:21.048Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:28:21.910Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:28:23.763Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:28:25.408Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=t","method":"GET","timestamp":"2025-06-05T13:28:35.674Z","url":"/chapters?page=1&search=t"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=te","method":"GET","timestamp":"2025-06-05T13:28:35.762Z","url":"/chapters?page=1&search=te"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=tes","method":"GET","timestamp":"2025-06-05T13:28:35.896Z","url":"/chapters?page=1&search=tes"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=test","method":"GET","timestamp":"2025-06-05T13:28:35.994Z","url":"/chapters?page=1&search=test"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=test1","method":"GET","timestamp":"2025-06-05T13:28:42.266Z","url":"/chapters?page=1&search=test1"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=s","method":"GET","timestamp":"2025-06-05T13:28:47.069Z","url":"/chapters?page=1&search=s"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=sa","method":"GET","timestamp":"2025-06-05T13:28:47.579Z","url":"/chapters?page=1&search=sa"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=sam","method":"GET","timestamp":"2025-06-05T13:28:48.079Z","url":"/chapters?page=1&search=sam"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=samp","method":"GET","timestamp":"2025-06-05T13:28:48.334Z","url":"/chapters?page=1&search=samp"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=sampl","method":"GET","timestamp":"2025-06-05T13:28:48.512Z","url":"/chapters?page=1&search=sampl"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=sample","method":"GET","timestamp":"2025-06-05T13:28:48.693Z","url":"/chapters?page=1&search=sample"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=sampl","method":"GET","timestamp":"2025-06-05T13:28:49.992Z","url":"/chapters?page=1&search=sampl"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=samp","method":"GET","timestamp":"2025-06-05T13:28:50.514Z","url":"/chapters?page=1&search=samp"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=sam","method":"GET","timestamp":"2025-06-05T13:28:50.591Z","url":"/chapters?page=1&search=sam"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=sa","method":"GET","timestamp":"2025-06-05T13:28:50.697Z","url":"/chapters?page=1&search=sa"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=s","method":"GET","timestamp":"2025-06-05T13:28:50.782Z","url":"/chapters?page=1&search=s"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:28:50.863Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:28:56.455Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:29:19.744Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:29:20.392Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:29:21.622Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:29:21.625Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search=","method":"GET","timestamp":"2025-06-05T13:29:26.361Z","url":"/chapters/cities?stateId=6300edcf-75a0-4c82-9432-fe6dc8820dc9&page=-1&search="}
+{"ip":"::1","level":"info","message":"POST /chapters","method":"POST","timestamp":"2025-06-05T13:29:55.424Z","url":"/chapters"}
+{"chapterId":"418916bb-5e78-46a2-a8a2-0a9a4481251f","level":"info","message":"Chapter created successfully","timestamp":"2025-06-05T13:29:55.443Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:29:55.451Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:31:23.985Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T13:31:24.081Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:31:24.137Z"}
+{"ip":"::1","level":"info","message":"GET /chapters/states?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:31:26.182Z","url":"/chapters/states?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users?page=-1&search=","method":"GET","timestamp":"2025-06-05T13:31:26.187Z","url":"/users?page=-1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T13:31:34.351Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:31:47.061Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:32:02.218Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:32:04.525Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:32:14.835Z","url":"/users/chapter"}
+{"email":"pranesh.s1009@gmail.com","level":"warn","message":"User creation attempt with existing email","timestamp":"2025-06-05T13:32:14.863Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:32:48.832Z","url":"/users/chapter"}
+{"email":"lovelypranesh1009@gmail.com","error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:32:48.990Z"}
+{"error":{"address":"127.0.0.1","code":"ESOCKET","command":"CONN","errno":-4078,"port":587,"syscall":"connect"},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:32:48.991Z","userId":"c466e5c0-6a9b-4bbf-b7c9-4738cf36e801"}
+{"chapterId":"418916bb-5e78-46a2-a8a2-0a9a4481251f","level":"info","message":"User created and assigned to chapter successfully","timestamp":"2025-06-05T13:32:48.991Z","userId":"c466e5c0-6a9b-4bbf-b7c9-4738cf36e801"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T13:32:49.004Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:34:27.203Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:34:27.287Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:34:37.641Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:34:37.757Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:34:43.328Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:34:43.459Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:52:50.773Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:52:50.891Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T13:53:01.299Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T13:53:55.897Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:54:00.671Z","url":"/users/chapter"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:54:11.656Z","url":"/users/chapter"}
+{"email":"pranesh.s1009@gmail.com","level":"warn","message":"User creation attempt with existing email","timestamp":"2025-06-05T13:54:11.683Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:54:26.998Z","url":"/users/chapter"}
+{"level":"warn","message":"User creation attempt with existing mobile number","mobileNumber":"8682807087","timestamp":"2025-06-05T13:54:27.022Z"}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:54:35.752Z","url":"/users/chapter"}
+{"email":"lovelypranesh1009@gmail.com","error":{"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23506cd351esm119661945ad.150 - gsmtp","responseCode":535},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:54:37.230Z"}
+{"error":{"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23506cd351esm119661945ad.150 - gsmtp","responseCode":535},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:54:37.231Z","userId":"b179467a-48f1-41d6-9ca7-9312a7995709"}
+{"chapterId":"418916bb-5e78-46a2-a8a2-0a9a4481251f","level":"info","message":"User created and assigned to chapter successfully","timestamp":"2025-06-05T13:54:37.232Z","userId":"b179467a-48f1-41d6-9ca7-9312a7995709"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T13:54:37.252Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T13:55:48.083Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T13:55:48.197Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T13:56:10.622Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T13:56:35.823Z","url":"/users/chapter"}
+{"email":"lovelypranesh1009@gmail.com","error":{"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-747afed4c0dsm12851203b3a.78 - gsmtp","responseCode":535},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:56:36.861Z"}
+{"error":{"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-747afed4c0dsm12851203b3a.78 - gsmtp","responseCode":535},"level":"error","message":"Failed to send welcome email","timestamp":"2025-06-05T13:56:36.862Z","userId":"68024e64-a9c6-4187-ab45-06240721b684"}
+{"chapterId":"418916bb-5e78-46a2-a8a2-0a9a4481251f","level":"info","message":"User created and assigned to chapter successfully","timestamp":"2025-06-05T13:56:36.864Z","userId":"68024e64-a9c6-4187-ab45-06240721b684"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T13:56:36.891Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T15:37:12.180Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T15:37:12.365Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T15:37:59.805Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T15:38:00.029Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T15:38:02.571Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T15:38:24.680Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"POST /users/chapter","method":"POST","timestamp":"2025-06-05T15:38:53.309Z","url":"/users/chapter"}
+{"email":"lovelypranesh1009@gmail.com","level":"info","message":"Welcome email sent successfully","timestamp":"2025-06-05T15:38:56.861Z"}
+{"chapterId":"418916bb-5e78-46a2-a8a2-0a9a4481251f","level":"info","message":"User created and assigned to chapter successfully","timestamp":"2025-06-05T15:38:56.862Z"}
+{"error":{},"level":"error","message":"Prisma error occurred","timestamp":"2025-06-05T15:38:56.864Z"}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T15:48:00.436Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T15:48:00.533Z"}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T15:48:07.291Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T15:48:08.210Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T15:48:14.061Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T15:48:21.974Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T15:48:34.031Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T15:51:22.727Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T15:51:35.681Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T15:51:48.852Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T15:51:48.964Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T15:52:26.628Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search=","method":"GET","timestamp":"2025-06-05T15:52:28.706Z","url":"/users/chapter/418916bb-5e78-46a2-a8a2-0a9a4481251f?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T15:52:30.456Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T15:55:57.171Z","url":"/chapters?page=1&search="}
+{"level":"info","message":"Server is running on port 8000","timestamp":"2025-06-05T16:18:34.861Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2025-06-05T16:18:36.548Z"}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:23:56.602Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:24:52.093Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:26:47.225Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:26:48.587Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:26:54.911Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:28:03.258Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:28:03.471Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:28:10.375Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:28:41.672Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:30:05.674Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:30:08.352Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:30:10.987Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:30:14.432Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:30:17.189Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:30:19.685Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:30:25.494Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:30:33.609Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:30:37.486Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:30:41.857Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:30:56.320Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:31:01.139Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:31:07.106Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:31:11.644Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:31:20.625Z","url":"/chapters?page=1&search="}
+{"ip":"::1","level":"info","message":"GET /chapters?page=1&search=","method":"GET","timestamp":"2025-06-05T16:32:03.594Z","url":"/chapters?page=1&search="}

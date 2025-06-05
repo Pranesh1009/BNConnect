@@ -98,7 +98,10 @@ export const login = async (req: Request, res: Response) => {
     // Find user
     const user = await prisma.user.findUnique({
       where: { email },
-      include: { roles: true }
+      include: {
+        roles: true,
+        profile: true
+      }
     });
 
     if (!user) {
@@ -141,6 +144,7 @@ export const login = async (req: Request, res: Response) => {
     logger.info('User logged in successfully', { userId: user.id });
     return sendSuccess(res, {
       token,
+      isNewUser: !user.profile,
       user: {
         id: user.id,
         email: user.email,
