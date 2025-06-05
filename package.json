@@ -22,6 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^5.10.0",
+    "@sendgrid/mail": "^8.1.5",
     "@types/nodemailer": "^6.4.17",
     "bcrypt": "^6.0.0",
     "bcryptjs": "^2.4.3",
